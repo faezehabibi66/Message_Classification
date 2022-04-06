@@ -12,10 +12,10 @@ Sentiment analysis is predestined to monitor voter opinions during political eve
 # Project Structure
 The project is divided into two parts:
 ### &nbsp; 1. Preprocessing Pipeline
-   #### 1.1 Install requirement.txt
-   - !pip install -r requirements.txt
-   #### 1.2 Import necessary libraries
-   ```
+   #### &nbsp; &nbsp; 1.1 Install requirement.txt
+&nbsp; &nbsp; - !pip install -r requirements.txt
+   #### &nbsp; &nbsp; 1.2 Import necessary libraries
+&nbsp; &nbsp; &nbsp;   ```
    import matplotlib.pyplot as plt
    import pandas as pd
    import nltk
