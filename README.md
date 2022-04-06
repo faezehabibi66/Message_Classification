@@ -9,43 +9,21 @@ Businesses are turning to text classification for structuring text in a fast and
 
 Sentiment analysis is predestined to monitor voter opinions during political events, a famous example of this is [Brexit](https://brexit.foraction.gr/).
 
-# Project Structure
+
+# Problem Formulation
+Given a new incoming message, we want to assign it to one of 3 categories: positive, neutral or negative. The classifier makes the assumption that each new message is assigned to one and only one category. This is called a **multi-class text classification problem**. 
+
+# Running
 The project is divided into two parts:
 Load and clean the messages dataset and store the resulting records into a .csv file so that we can use it in the next step to train a supervised model.
 ### &nbsp; 1. Preprocessing Pipeline
 #### &nbsp; &nbsp; &nbsp; &nbsp; 1.1 Install requirement.txt
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `pip install -r requirements.txt`
-#### &nbsp; &nbsp; &nbsp; &nbsp; 1.2 Import necessary libraries
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ```
-import matplotlib.pyplot as plt
-import pandas as pd
-import nltk
-import csv```
-
- 
-
-###  &nbsp; 2. ML Pipeline
-The machine learning pipeline is concerned with training the model and evaluating it. It includes a text processing part because the algorithm must be able to deal with text input.
-
-
-# Problem Formulation
-Given a new incoming message, we want to assign it to one of 3 categories: positive, neutral or negative. The classifier makes the assumption that each new message is assigned to one and only one category. This is called a **multi-class text classification problem**. 
-
-# Steps
-1. Look at Data
-3. Install necessary libraries
-
-4. Import 
 
 
 
-# Data Exploration and Preprocessing
-* Open the jupyter notebook preprocessing.ipynb (You may of course also work with IDEs like PyCharm).
-* Use pandas to load the prepared dataset into a dataframe, then explore the available columns and inspect a couple of examples.
-* Use matplotlib or seaborn to plot the  the number of records in each class.
-* Think about possible data cleaning steps to reduce the number of artifacts or inherent bias.
-* You might also want to visualize word frequencies in your training data before and after cleaning (use nltk, matplotlib or seaborn).
-* Finally, save the preprocessed dataset. It should include just 2 columns: `text` and `label`.
+
+
 
 # Text Representation and ML Pipeline
 Open the second jupyter notebook training_pipeline.ipynb to work with the preprocessed dataset.
