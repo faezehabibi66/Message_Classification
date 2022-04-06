@@ -19,6 +19,15 @@ The project is divided into two parts:
 The machine learning pipeline is concerned with training the model and evaluating it. It includes a text processing part because the algorithm must be able to deal with text input.
 
 
+------------------------------------------------------------------------------------------
+
+
+ Markup : - Bullet list
+              - Nested bullet
+                  - Sub-nested bullet etc
+          - Bullet list item 2 
+------------------------------------------------------------------------------------------
+
 # Problem Formulation
 Given a new incoming message, we want to assign it to one of 3 categories: positive, neutral or negative. The classifier makes the assumption that each new message is assigned to one and only one category. This is called a **multi-class text classification problem**. 
 
