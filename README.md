@@ -11,9 +11,11 @@ Sentiment analysis is predestined to monitor voter opinions during political eve
 
 # Project Structure
 The project is divided into two parts:
-1. Preprocessing Pipeline
-Load and clean the messages dataset and store the resulting records into a .csv file so that we can use it in the next step to train a supervised model.
-2. ML Pipeline
+##1. Preprocessing Pipeline
+   Load and clean the messages dataset and store the resulting records into a .csv file so that we can use it in the next step to train a supervised model.
+   -Install necessary libraries
+   
+##2. ML Pipeline
 The machine learning pipeline is concerned with training the model and evaluating it. It includes a text processing part because the algorithm must be able to deal with text input.
 
 
@@ -22,8 +24,9 @@ Given a new incoming message, we want to assign it to one of 3 categories: posit
 
 # Steps
 1. Look at Data
-3. Import necessary libraries
-   -```
+3. Install necessary libraries
+
+```
 !pip  install   pandas 
 !pip  install   nltk 
 !pip  install   numpy 
@@ -36,7 +39,7 @@ Given a new incoming message, we want to assign it to one of 3 categories: posit
 !pip  install   xlrd 
 !pip  install   jupyter
 ```
-4. ok
+4. Import 
 
 
 
