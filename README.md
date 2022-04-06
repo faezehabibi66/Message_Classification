@@ -22,9 +22,10 @@ Given a new incoming message, we want to assign it to one of 3 categories: posit
 
 # Steps
 1. Look at Data
-2. import necessary libraries
-4. 
-
+   - dataset file
+3. Import necessary libraries
+   -
+   
 ```
 !pip  install   pandas 
 !pip  install   nltk 
@@ -38,6 +39,8 @@ Given a new incoming message, we want to assign it to one of 3 categories: posit
 !pip  install   xlrd 
 !pip  install   jupyter
 ```
+4. ok
+
 
 
 # Data Exploration and Preprocessing
