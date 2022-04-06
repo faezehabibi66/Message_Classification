@@ -20,8 +20,7 @@ Load and clean the messages dataset and store the resulting records into a .csv 
 import matplotlib.pyplot as plt
 import pandas as pd
 import nltk
-import csv
-```
+import csv```
 
  
 
