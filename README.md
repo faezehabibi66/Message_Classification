@@ -14,10 +14,9 @@ The project is divided into two parts:
 Load and clean the messages dataset and store the resulting records into a .csv file so that we can use it in the next step to train a supervised model.
 ### &nbsp; 1. Preprocessing Pipeline
 #### &nbsp; &nbsp; &nbsp; &nbsp; 1.1 Install requirement.txt
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `!pip install -r requirements.txt`
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; `pip install -r requirements.txt`
 #### &nbsp; &nbsp; &nbsp; &nbsp; 1.2 Import necessary libraries
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-```
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ```
 import matplotlib.pyplot as plt
 import pandas as pd
 import nltk
@@ -37,19 +36,6 @@ Given a new incoming message, we want to assign it to one of 3 categories: posit
 1. Look at Data
 3. Install necessary libraries
 
-```
-!pip  install   pandas 
-!pip  install   nltk 
-!pip  install   numpy 
-!pip  install   scikit-learn 
-!pip  install   Unidecode 
-!pip  install   lime 
-!pip  install   eli5 
-!pip  install   matplotlib
-!pip  install   seaborn
-!pip  install   xlrd 
-!pip  install   jupyter
-```
 4. Import 
 
 
