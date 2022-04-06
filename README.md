@@ -22,11 +22,8 @@ Given a new incoming message, we want to assign it to one of 3 categories: posit
 
 # Steps
 1. Look at Data
-   - dataset file
 3. Import necessary libraries
-   -
-   
-```
+   -```
 !pip  install   pandas 
 !pip  install   nltk 
 !pip  install   numpy 
