@@ -25,7 +25,7 @@ Given a new incoming message, we want to assign it to one of 3 categories: posit
 2. import necessary libraries
 4. 
 
-
+`
 !pip  install   pandas
 !pip  install   nltk 
 !pip  install   numpy
@@ -37,6 +37,8 @@ Given a new incoming message, we want to assign it to one of 3 categories: posit
 !pip  install   seaborn
 !pip  install   xlrd 
 !pip  install   jupyter
+`
+
 
 # Data Exploration and Preprocessing
 * Open the jupyter notebook preprocessing.ipynb (You may of course also work with IDEs like PyCharm).
