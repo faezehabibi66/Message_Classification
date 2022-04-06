@@ -19,8 +19,8 @@ The project is divided into two parts:
    import matplotlib.pyplot as plt
    import pandas as pd
    import nltk
-   import csv
-   ```
+   import csv ```
+   
        Load and clean the messages dataset and store the resulting records into a .csv file so that we can use it in the next step to train a supervised model. 
    
 ###  &nbsp; 2. ML Pipeline
