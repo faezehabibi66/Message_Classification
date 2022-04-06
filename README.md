@@ -10,7 +10,7 @@ Businesses are turning to text classification for structuring text in a fast and
 Sentiment analysis is predestined to monitor voter opinions during political events, a famous example of this is [Brexit](https://brexit.foraction.gr/).
 
 # Project Structure
-## The project is divided into two parts:
+The project is divided into two parts:
 ### 1. Preprocessing Pipeline
    Load and clean the messages dataset and store the resulting records into a .csv file so that we can use it in the next step to train a supervised model.
    -Install necessary libraries
