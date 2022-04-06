@@ -26,9 +26,9 @@ Given a new incoming message, we want to assign it to one of 3 categories: posit
 4. 
 
 `
-!pip  install   pandas
-!pip  install   nltk 
-!pip  install   numpy
+!pip  install   pandas    
+!pip  install   nltk     
+!pip  install   numpy    
 !pip  install   scikit-learn 
 !pip  install   Unidecode 
 !pip  install   lime 
